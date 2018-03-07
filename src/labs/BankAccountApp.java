@@ -58,7 +58,7 @@ class BankAccount implements IInterest{
     }
     @Override
     public void accrue(){
-        balance = balance * (1 + rate/100);
+        balance = balance * (1 + rate/1000);
          showBalance();
     }
     @Override
